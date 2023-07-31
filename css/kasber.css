@@ -790,6 +790,11 @@ header .container nav .form i {
   margin: 70px auto 0;
   text-align: center;
 }
+@media (max-width: 767px) {
+  .pricing .container .contact {
+    width: fit-content;
+  }
+}
 .pricing .container .contact p {
   font-size: 20px;
 }
